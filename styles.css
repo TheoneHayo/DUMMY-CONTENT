@@ -1,0 +1,7 @@
+body {
+    background: url(./images/shady.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
