@@ -1,7 +1,24 @@
 body {
-    background: url(./images/shady.jpg);
-    background-size: cover;
+    background: url(./images/shady.jpg) no-repeat center center/cover;
+    background-attachment: fixed; /* Add this for a 'fixed' background */
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
+}
+
+a {
+    color: purple;
+   text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+        /* Reduce padding on smaller screens for better use of space */
+        padding: 20px;
+    }
 }
